@@ -408,7 +408,32 @@ ninja.data = [{
             },},{id: "news-started-my-ms-at-university-of-bonn",
           title: 'Started my MS at University of Bonn! 🎉',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-knowthescene",
+          title: 'KnowTheScene',
+          description: "Final Year Major Project [UNDERGRADUATE RESEARCH]",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-strawberry-stacker",
+          title: 'Strawberry Stacker',
+          description: "Swarm drones for Box Delivery",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-sahayak-bot",
+          title: 'Sahayak Bot',
+          description: "Assistant Bot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-lcpp",
+          title: 'LCPP',
+          description: "Low Computational Processing Pipeline for Delivery Robots",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_project/";
+            },},{id: "projects-ancbot",
+          title: 'ancBOT',
+          description: "Autonomous Navigation and Charging Bot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14_project/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
