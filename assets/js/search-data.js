@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-experiences",
+          title: "experiences",
+          description: "its been great working in these roles",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experiences/";
+          },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
               description: "",
@@ -408,32 +415,7 @@ ninja.data = [{
             },},{id: "news-started-my-ms-at-university-of-bonn",
           title: 'Started my MS at University of Bonn! 🎉',
           description: "",
-          section: "News",},{id: "projects-knowthescene",
-          title: 'KnowTheScene',
-          description: "Final Year Major Project [UNDERGRADUATE RESEARCH]",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-strawberry-stacker",
-          title: 'Strawberry Stacker',
-          description: "Swarm drones for Box Delivery",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
-            },},{id: "projects-sahayak-bot",
-          title: 'Sahayak Bot',
-          description: "Assistant Bot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_project/";
-            },},{id: "projects-lcpp",
-          title: 'LCPP',
-          description: "Low Computational Processing Pipeline for Delivery Robots",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
-            },},{id: "projects-ancbot",
-          title: 'ancBOT',
-          description: "Autonomous Navigation and Charging Bot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/14_project/";
-            },},{id: "projects-project-1",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
@@ -478,6 +460,56 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-accilert",
+          title: 'acciLert',
+          description: "the SMART accident detection and notification system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/accilert/";
+            },},{id: "projects-ancbot",
+          title: 'ancBOT',
+          description: "Autonomous Navigation and Charging Bot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ancbot/";
+            },},{id: "projects-aons",
+          title: 'aons',
+          description: "an autonomous outdoor navigation system stack for rover",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aons/";
+            },},{id: "projects-drivelite",
+          title: 'driveLite',
+          description: "simplifying the self-driving stack for learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/drivelite/";
+            },},{id: "projects-grasping-algorithm",
+          title: 'grasping algorithm',
+          description: "exploring grasping algorithms for robotic manipulators",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/grasp/";
+            },},{id: "projects-knowthescene",
+          title: 'knowTheScene',
+          description: "Final Year Major Project [UNDERGRADUATE RESEARCH]",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/knowthescene/";
+            },},{id: "projects-lcpp",
+          title: 'lcpp',
+          description: "low computational processing pipeline for delivery robots",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lcpp/";
+            },},{id: "projects-sahayak-bot",
+          title: 'sahayak bot',
+          description: "assistant bot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sahayak_bot/";
+            },},{id: "projects-strawberry-stacker",
+          title: 'strawberry stacker',
+          description: "swarm drones for box delivery",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/strawberry_stacker/";
+            },},{id: "projects-survey-and-rescue",
+          title: 'survey and rescue',
+          description: "drone based survey and rescue system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/survey_rescue/";
             },},{
         id: 'social-cv',
         title: 'CV',
